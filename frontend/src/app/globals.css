@@ -1,0 +1,222 @@
+
+/* Identidade visual do Céu de Letras */
+
+.nome-logo {
+  color: #a87322 !important;
+  font-family: Georgia, serif;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}
+
+.navbar .nav-link {
+  color: #45413b;
+  transition: color 0.2s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #b8863b;
+}
+
+.btn-outline-dourado {
+  color: #a87322;
+  border: 1px solid #b8863b;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.btn-outline-dourado:hover {
+  background-color: #b8863b;
+  color: white;
+}
+
+.navbar {
+  border-color: #e8dfd0 !important;
+}
+
+/* =========================
+   FOOTER - CÉU DE LETRAS
+========================= */
+
+.footer-ceud {
+  background-color: #e5e5e5;
+  color: #454545;
+  border-top: 1px solid #d0d0d0;
+  margin-top: auto;
+}
+
+.footer-logo {
+  display: inline-block;
+  color: #a87322;
+  font-family: Georgia, serif;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-logo:hover {
+  color: #80551a;
+}
+
+.footer-subtitulo {
+  margin-top: 6px;
+  color: #777777;
+  font-size: 0.7rem;
+  letter-spacing: 3px;
+}
+
+.footer-descricao {
+  max-width: 350px;
+  margin-top: 20px;
+  color: #5f5f5f;
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+
+.footer-titulo {
+  margin-bottom: 18px;
+  color: #a87322;
+  font-family: Georgia, serif;
+  font-size: 1.1rem;
+}
+
+.footer-links {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  color: #555555;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: #a87322;
+}
+
+.footer-bottom {
+  padding: 18px 0;
+  background-color: #d4d4d4;
+  border-top: 1px solid #c6c6c6;
+}
+
+.footer-bottom p {
+  margin: 0;
+  color: #666666;
+  font-size: 0.8rem;
+}
+
+/* Ajustes para celular */
+@media (max-width: 576px) {
+  .footer-logo {
+    font-size: 1.5rem;
+  }
+
+  .footer-subtitulo {
+    letter-spacing: 2px;
+  }
+
+  .footer-descricao {
+    font-size: 0.9rem;
+  }
+}
+
+
+/* Banner principal */
+
+.banner {
+  background: #f4f0e8;
+  border: 1px solid #e5dac6;
+  background-image: url('/img/FundoBanner.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner h1 {
+  color: #a87322;
+  font-family: Georgia, serif;
+}
+
+.banner p {
+  color: #55504a;
+}
+
+/* Título da seção */
+
+.titulo-secao {
+  color: #403b35;
+  font-family: Georgia, serif;
+}
+
+/* Card */
+
+.card-evento {
+  border: 1px solid #e7e0d5;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  transition: transform 0.2s ease,
+              box-shadow 0.2s ease;
+}
+
+.card-evento:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+}
+
+.imagem-evento {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+
+.categoria-evento {
+  align-self: flex-start;
+  padding: 5px 10px;
+  border: 1px solid #d8bd8e;
+  border-radius: 20px;
+  color: #94651e;
+  background: #faf6ee;
+  font-size: 0.78rem;
+}
+
+.card-evento .card-title {
+  color: #403b35;
+  font-family: Georgia, serif;
+}
+
+.informacao-evento {
+  margin-bottom: 6px;
+  color: #68635c;
+  font-size: 0.88rem;
+}
+
+.descricao-evento {
+  margin-top: 8px;
+  color: #55504a;
+  line-height: 1.6;
+}
+
+/* Botão dourado */
+
+.btn-evento {
+  color: #fff;
+  background: #a87322;
+  border: 1px solid #a87322;
+  border-radius: 5px;
+  padding: 10px 14px;
+  transition: background 0.2s ease;
+}
+
+.btn-evento:hover {
+  color: #fff;
+  background: #865719;
+  border-color: #865719;
+}
