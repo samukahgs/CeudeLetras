@@ -67,7 +67,7 @@ export default function Footer() {
       <div className="footer-bottom">
         <div className="container text-center">
           <p>
-            © {new Date().getFullYear()} Céu de Letras.
+            © 2026 Céu de Letras.
             {' '}Todos os direitos reservados.
           </p>
         </div>
