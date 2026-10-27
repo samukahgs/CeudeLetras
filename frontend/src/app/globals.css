@@ -234,3 +234,8 @@
   background: #865719;
   border-color: #865719;
 }
+
+.container{
+  width: 70vw;
+  margin: auto;
+}
