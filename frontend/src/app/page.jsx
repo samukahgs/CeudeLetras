@@ -1,5 +1,4 @@
 
-import styles from "./page.module.css";
 
 export default function Home() {
   return (
@@ -7,7 +6,8 @@ export default function Home() {
       <section className="container py-5">
         <div className="banner p-4 p-md-5 mb-5 rounded-3">
           <h1 className="display-5 fw-bold">
-            Descubra encontros literários, noites de poesia e experiências que celebram o poder das palavras.
+            Descubra encontros literários, noites de poesia e
+            experiências que celebram o poder das palavras.
           </h1>
 
           <p className="col-md-8 fs-5">
@@ -15,6 +15,7 @@ export default function Home() {
             que aproximam pessoas por meio das palavras.
           </p>
         </div>
+      </section>
     </>
   );
 }
