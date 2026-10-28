@@ -1,5 +1,4 @@
 
-
 export default function Home() {
   return (
     <>
@@ -15,6 +14,7 @@ export default function Home() {
             que aproximam pessoas por meio das palavras.
           </p>
         </div>
+      </section>
     </>
   );
 }

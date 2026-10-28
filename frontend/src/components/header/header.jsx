@@ -10,10 +10,10 @@ export default function Header() {
       <div className="container">
         <Link href="/" className="navbar-brand nome-logo">
           <Image
-            src="/img/logoprata.png"
+            src="/img/logo.png"
             alt="Céu de Letras"
             width={80}
-            height={70}
+            height={60}
             priority
           />
           {' '}Céu de Letras

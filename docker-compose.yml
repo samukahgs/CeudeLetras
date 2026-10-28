@@ -1,0 +1,16 @@
+
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: ceu-de-letras-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: senha_local_123
+      MYSQL_DATABASE: ceu_de_letras
+    ports:
+      - "3306:3306"
+    volumes:
+      - dados_mysql:/var/lib/mysql
+
+volumes:
+  dados_mysql:
